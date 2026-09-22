@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@keyframes attract-flicker {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.7), 0 0 16px rgba(245, 158, 11, 0.6);
+    filter: brightness(1);
+  }
+  20% {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 4px rgba(217, 119, 6, 0.5), 0 0 24px rgba(245, 158, 11, 0.8);
+    filter: brightness(1.08);
+  }
+  40% {
+    transform: scale(1.01);
+    box-shadow: 0 0 0 1px rgba(217, 119, 6, 0.3), 0 0 14px rgba(245, 158, 11, 0.5);
+    filter: brightness(0.96);
+  }
+  60% {
+    transform: scale(1.04);
+    box-shadow: 0 0 0 8px rgba(217, 119, 6, 0.4), 0 0 30px rgba(245, 158, 11, 0.9);
+    filter: brightness(1.12);
+  }
+  80% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.4), 0 0 18px rgba(245, 158, 11, 0.7);
+    filter: brightness(1.02);
+  }
+}
+
+.animate-flicker-attract {
+  animation: attract-flicker 2s infinite ease-in-out;
+}
+
+@keyframes beacon-flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+.animate-beacon-flicker {
+  animation: beacon-flicker 1s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+

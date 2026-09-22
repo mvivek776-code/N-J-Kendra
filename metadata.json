@@ -1,0 +1,6 @@
+{
+  "name": "निवारण ज्योतिष केंद्र | Nivaran Jyotish Kendra",
+  "description": "12+ वर्षों के प्रामाणिक अनुभव के साथ निवारण ज्योतिष केंद्र: वैदिक ज्योतिष, विवाह एवं कुंडली मिलान, जन्मपत्री, राशिफल एवं वैदिक समाधान। हेल्पलाइन: +91 8887578844",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
